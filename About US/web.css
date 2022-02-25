@@ -244,5 +244,19 @@ ul {
 .title {
   color: grey;
 }
+.column16 {
+  background-color:#2f98af;
+  float:right;
+  margin-left:0%;
+  width: 100%;
+  padding-right:5px;
+  max-width: 100%;
+  height: auto;
+  height: 150px;
+  
+  color: #4a4a4a;
+  font-size: .7em;
+  font-weight: lighter;
+} 
         
         

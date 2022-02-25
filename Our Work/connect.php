@@ -12,4 +12,10 @@
     $expyear = $_POST['expyear'];
     $cvv = $_POST['cvv'];
     $Amount = $_POST['Amount'];
-  
+    $host = "localhost";
+    $dbUsername = "root";
+    $dbPassword = "";
+    $dbName = "test";
+    $conn = new mysqli($host, $dbUsername, $dbPassword, $dbName,);
+       
+?>

@@ -193,7 +193,7 @@ li a:hover{
   background-color:#f6f9fa;
   float:left;
   margin-left:0%;
-  width: 757.5px;
+  width:50%;
   padding:1px;
   max-width: 100%;
   height: auto;
@@ -204,7 +204,7 @@ li a:hover{
   background-color:#e7e7e7;
   float:right;
   margin-left:0%;
-  width: 757.5px;
+  width:50%;
   padding:1px;
   max-width: 100%;
   height: auto;
@@ -215,7 +215,7 @@ li a:hover{
   background-color:#e7e7e7;
   float:left;
   margin-left:0%;
-  width: 757.5px;
+  width:50%;
   padding:1px;
   max-width: 100%;
   height: auto;
@@ -226,7 +226,7 @@ li a:hover{
   background-color:#f6f9fa;
   float:right;
   margin-left:0%;
-  width: 757.5px;
+  width:50%;
   padding:1px;
   max-width: 100%;
   height: auto;
@@ -474,3 +474,27 @@ image{
 }
 }
  
+
+.parallax2 {
+  /* The image used */
+  background-image:url('\weba4.jpg');
+
+
+  /* Full height */
+  height: 80%; 
+
+  /* Create the parallax scrolling effect */
+  background-attachment:fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+/* Turn off parallax scrolling for tablets and phones. Increase the pixels if needed */
+@media only screen and (max-device-width: 1366px) {
+  .parallax {
+    background-attachment: scroll;
+  }
+}body, html {margin: 0;
+  height: 100%;
+}

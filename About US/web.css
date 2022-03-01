@@ -281,5 +281,30 @@ ul {
   background-color: #fff;
   border: 1px solid #ddd;
 }
-        
+.form-inline button {
+   
+  font-size: 1em;
+  
+  margin-top: 2%;
+  padding: 10px 21px;
+  background-color: #4a4a4a;
+  border: 1px solid #ddd;
+  color: white;
+  cursor: pointer;
+}
+
+.form-inline button:hover {
+  background-color: #333232;
+}
+
+@media (max-width: 800px) {
+  .form-inline input {
+    margin: 10px 0;
+  }
+  
+  .form-inline {
+    flex-direction: column;
+    align-items: stretch;
+  }
+}
         
